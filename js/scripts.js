@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("form#dimension").submit(function(event) {
+  $("form#dimensions").submit(function(event) {
     event.preventDefault();
     $("#quiz").hide();
 
@@ -11,11 +11,11 @@ $(document).ready(function(){
     if (sideA+sideB<=sideC || sideB+sideC <=sideA || sideC+sideA<=sideB){
       $("#nope").show();
     } else if (sideA === sideB && sideB === sideC) {
-      $("Equilateral").show();
+      $("#Equilateral").show();
     } else if (sideA === sideB || sideB === sideC) {
-      $("Isosceles").show();
+      $("#Isosceles").show();
     } else {
-      $("Scalene").show();
+      $("#Scalene").show();
     }
   });
 });
