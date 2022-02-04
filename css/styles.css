@@ -1,0 +1,14 @@
+.container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: lavenderblush;
+}
+
+#nope, #Equilateral, #Isosceles, #Scalene {
+  display: none;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+}
